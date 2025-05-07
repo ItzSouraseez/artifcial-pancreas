@@ -60,3 +60,16 @@
   font-size: 2vw;
   margin-top: 1vw;
 }
+.contentImg {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.pancreasModelImg1 {
+  position: relative;
+  margin-top: 1.5vw;
+  margin-bottom: 0.25vw;
+  width: 30.5vw;
+  height: auto;
+  border-radius: 1vw;
+}

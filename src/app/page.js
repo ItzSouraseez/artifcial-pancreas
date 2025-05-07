@@ -2,6 +2,8 @@ import Image from "next/image";
 import Styles from "./page.module.css";
 import NavBar from "./components/NavBar/page";
 import ModelImage from "../../public/WhatsApp Image 2025-05-06 at 11.09.53_8e93526e.jpg";
+import Img1 from "../../public/Img1.jpg";
+import Img2 from "../../public/Img2.jpg";
 
 export default function Home() {
   return (
@@ -115,16 +117,34 @@ export default function Home() {
             <h1>Conclusion</h1>
           </div>
           <p>
-            This static model effectively illustrates the functioning of an artificial pancreas and its importance in advancing diabetes care technology.
+            This static model effectively illustrates the functioning of an
+            artificial pancreas and its importance in advancing diabetes care
+            technology.
           </p>
         </div>
         <div className={Styles.contentSection}>
           <div>
             <h1>Credits</h1>
           </div>
-          <p>
-            An Initiative by Bratati Sen.
-          </p>
+          <p>An Initiative by Bratati Sen.</p>
+          <div className={Styles.contentImg}>
+            <Image
+              className={Styles.pancreasModelImg1}
+              src={Img1}
+              alt="Artificial Pancreas Model"
+              width={0}
+              height={0}
+              sizes="100vw"
+            />
+            <Image
+              className={Styles.pancreasModelImg1}
+              src={Img2}
+              alt="Artificial Pancreas Model"
+              width={0}
+              height={0}
+              sizes="100vw"
+            />
+          </div>
         </div>
       </main>
     </div>
