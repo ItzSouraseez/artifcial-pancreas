@@ -1,0 +1,26 @@
+.navBar {
+    position: relative;
+    display: flex;
+    width: 70vw;
+    height: 5vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1vw;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(134, 134, 134);
+}
+.devName {
+    position: relative;
+    margin-left: 2vw;
+}
+.links {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.links h2 {
+    position: relative;
+    margin-right: 2vw;
+}

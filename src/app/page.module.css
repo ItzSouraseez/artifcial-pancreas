@@ -1,0 +1,62 @@
+.page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  position: relative;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroSection {
+  position: relative;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw;
+}
+.heroSection h1 {
+  font-size: 5.4vw;
+}
+.heroSection h2 {
+  font-size: 6.3vw;
+  background: linear-gradient(to right, #ffffff, #7e7e7e0e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.heroSection h3 {
+  position: relative;
+  margin: 1vw;
+}
+.pancreasModelImg {
+  position: relative;
+  margin-top: 1.5vw;
+  margin-bottom: 0.25vw;
+  width: 27vw;
+  height: auto;
+  border-radius: 1vw;
+}
+.contentSection {
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.36);
+  padding: 3vw;
+  border-radius: 1vw;
+  margin-bottom: 3vw;
+}
+.contentSection h1 {
+  position: relative;
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}
+.contentSection p {
+  position: relative;
+  font-size: 1.5vw;
+}
+.contentSection h2 {
+  position: relative;
+  font-size: 2vw;
+  margin-top: 1vw;
+}
